@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150dp"
+        android:padding="30dp"
+        android:textAlignment="textEnd"
+        android:textSize="30dp" />
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:columnCount="4"
+        android:rowCount="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvResult">
+
+        <Button
+            android:id="@+id/btnSeven"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/black"
+            android:text="7"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:textSize="70px"/>
+
+        <Button
+            android:id="@+id/btnEight"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/black"
+            android:text="8"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:textSize="70px" />
+
+        <Button
+            android:id="@+id/btnNine"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/black"
+            android:layout_margin="10dp"
+            android:text="9"
+            android:textColor="@color/white"
+            android:textSize="70px"/>
+
+        <Button
+            android:id="@+id/btnMultiply"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/black"
+            android:layout_margin="10dp"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="70px"/>
+
+
+        <Button
+            android:id="@+id/btnFour"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:text="4"
+            android:textColor="@color/white"
+            android:textSize="70px"/>
+
+        <Button
+            android:id="@+id/btnFive"
+            android:layout_width="80dp"
+            android:layout_margin="10dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/black"
+            android:text="5"
+            android:textColor="@color/white"
+            android:textSize="70px"/>
+
+        <Button
+            android:id="@+id/btnSix"
+            android:layout_width="80dp"
+            android:layout_margin="10dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/black"
+            android:text="6"
+            android:textColor="@color/white"
+            android:textSize="70px"/>
+
+        <Button
+            android:id="@+id/btnSubtract"
+            android:layout_width="80dp"
+            android:layout_margin="10dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/black"
+            android:text="ㅡ"
+            android:textColor="@color/white"
+            android:textSize="70px"/>
+
+
+
+
+        <Button
+            android:id="@+id/btnOne"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="80px" />
+
+
+
+        <Button
+            android:id="@+id/btnTwo"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/black"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="70px"/>
+
+        <Button
+            android:id="@+id/btnThree"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/black"
+            android:text="3"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:textSize="70px"/>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="80dp"
+            android:layout_margin="10dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/black"
+            android:text="+"
+            android:textColor="@color/white"
+            android:textSize="70px"/>
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/black"
+            android:text="C"
+            android:textColor="@color/white"
+            android:textSize="70px"/>
+        <Button
+            android:id="@+id/btnZero"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/black"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="70px"/>
+        <Button
+            android:id="@+id/btnEquals"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:text="="
+            android:textColor="@color/white"
+            android:textSize="80px"/>
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:text="%"
+            android:textColor="@color/white"
+            android:textSize="70px"/>
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
